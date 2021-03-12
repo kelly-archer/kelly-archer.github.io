@@ -42,19 +42,21 @@
     	}).addTo(mymap);
 
     	L.marker([36.984368, -122.029699]).addTo(mymap)
-    		.bindPopup("<b>Hello world!</b><br />I am a popup.").openPopup();
+    		.bindPopup("<b>Hello world!</b><br />HW1/9 Intersection").openPopup();
 
-    	L.circle([36.984368, -122.029699], 50, {
+    	<!--
+      L.circle([36.984368, -122.029699], 50, {
     		color: 'red',
     		fillColor: '#f03',
     		fillOpacity: 0.3
     	}).addTo(mymap).bindPopup("I am a circle.");
+     -->
 
     	L.polygon([
-    		[51.509, -0.08],
-    		[51.503, -0.06],
-    		[51.51, -0.047]
-    	]).addTo(mymap).bindPopup("I am a polygon.");
+    		[36.983851, -122.031192],
+    		[36.984806, -122.029953],
+    		[36.984227, -122.030334]
+    	]).addTo(mymap).bindPopup("Northwest Camp");
 
 
     	var popup = L.popup();
